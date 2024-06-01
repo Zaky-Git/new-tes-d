@@ -11,4 +11,11 @@
         <maven.compiler.target>16</maven.compiler.target>
         <exec.mainClass>main.Driver</exec.mainClass>
     </properties>
+    <distributionManagement>
+   <repository>
+     <id>github</id>
+     <name>GitHub OWNER Apache Maven Packages</name>
+     <url>https://maven.pkg.github.com/Zaky-Git/new-tes-d</url>
+   </repository>
+</distributionManagement>
 </project>
